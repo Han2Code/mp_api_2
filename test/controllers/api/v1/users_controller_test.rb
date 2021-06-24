@@ -28,7 +28,7 @@ class Api::V1::UsersControllerTest < ActionDispatch::IntegrationTest
 
   test "should not create user with taken email" do 
     assert_no_difference('User.count') do
-    post api_v1_users_url, params: { user: { email: @user .email, password: '123456' } }, as: :json
+    post api_v1_users_url, params: { user: { email: @user.email, password: '123456' } }, as: :json
     end
 
     assert_response :unprocessable_entity
