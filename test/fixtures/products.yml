@@ -2,18 +2,19 @@
 
 one:
   title: TV Plasma 32
-  price: 199.99
+  price: 9999.99
   published: false
   user: one
 
 two:
   title: Tablet 3G
-  price: 259
+  price: 499.99
   published: false
   user: two
 
 another_tv:
-  title: Walkman
+  title: Walkman TV
   price: 99.99 
   published: false 
   user: two
+
