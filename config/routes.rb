@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
       resources :tokens, only: [:create]
 
+      resources :products, only: [:show, :index]
+
     end
 
   end
