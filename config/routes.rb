@@ -9,13 +9,12 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
 
     namespace :v1 do
-    # We are going to list our resources here
 
       resources :users, only: [:show, :create, :update, :destroy]
 
       resources :tokens, only: [:create]
 
-      resources :products, only: [:show, :index]
+      resources :products, only: [:show, :index, :create, :update, :destroy]
 
     end
 
