@@ -5,16 +5,19 @@ one:
   price: 9999.99
   published: false
   user: one
+  quantity: 5
 
 two:
   title: Tablet 3G
   price: 499.99
   published: false
   user: two
+  quantity: 5
 
 another_tv:
   title: Walkman TV
   price: 99.99 
   published: false 
   user: two
+  quantity: 5
 
